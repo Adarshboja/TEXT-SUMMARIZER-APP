@@ -52,5 +52,5 @@ def chat():
     except Exception as e:
         return jsonify({"answer": f"Error: {str(e)}"})
 
-if __name__ == '__main__': #run is file is directly executed
-    app.run(debug=True) #auto reloads on code changes(debug=True)
+if __name__ == "__main__":
+    app.run()
